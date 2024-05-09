@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<toolkit:Popup xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             x:Class="NavigationTest.TestPopup">
+    <VerticalStackLayout Padding="15">
+        <Label 
+            Text="Popup test"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <Entry/>
+        <Button Clicked="OnClose"
+                Text="Close popup"/>
+    </VerticalStackLayout>
+</toolkit:Popup>
